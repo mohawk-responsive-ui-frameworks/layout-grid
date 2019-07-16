@@ -1,0 +1,22 @@
+{
+  "name": "@mohawk/exercise-2-responsive-layout-grid",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server -o public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/mohawk-responsive-design-frameworks/exercise-2-responsive-layout-grid.git"
+  },
+  "author": "Matthew Palmer <matthew.palmer1@mohawkcollege.ca>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://gitlab.com/mohawk-responsive-design-frameworks/exercise-2-responsive-layout-grid/issues"
+  },
+  "homepage": "https://gitlab.com/mohawk-responsive-design-frameworks/exercise-2-responsive-layout-grid#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}

@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en-CA">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Exercise #2</title>
+
+    <link rel="stylesheet" href="/lib/css/font-awesome.css">
+    <link rel="stylesheet" href="/lib/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/tutorial.css">
+  </head>
+  <body>
+
+    <!-- Do not modify <header> or it's children -->
+    <header class="main-header navbar navbar-expand navbar-dark bd-navbar bg-dark">
+      <h1 class="h4">Responsive Grid System</h1>
+
+      <nav>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">
+              Tutorial <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/exercise.html">Exercise</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!-- Content -->
+    <main class="container">
+
+      <section class="container">
+        <h1>
+          <a hre="">Equal-width Columns</a>
+        </h1>
+        <p>
+          All three elements should have equal widths and appear
+          on the same line regardless of viewport width.
+        </p>
+
+        <div class="row">
+          <div class="col">#1</div>
+          <div class="col">#2</div>
+          <div class="col">#3</div>
+        </div>
+      </section>
+
+
+      <section class="container">
+        <h1>Set Columns Width</h1>
+        <ul>
+          <li>
+            The <em>first</em> and <em>last</em> elements should be variable width like the last row.
+          </li>
+          <li>
+            The <em>second</em> element should have a grid column width of <strong>3</strong>.
+          </li>
+          <li>
+            The <em>third</em> element should have a grid column width of <strong>7</strong>.
+          </li>
+        </ul>
+
+        <div class="row">
+          <div class="col-2">#1</div>
+          <div class="col-4">#2</div>
+          <div class="col-2">#3</div>
+          <div class="col-4">#4</div>
+        </div>
+      </section>
+
+
+      <section class="container">
+        <h1>Breakpoint Specific</h1>
+        <p><em>All</em> columns should span:</p>
+        <ul>
+          <li>
+            <strong>12</strong> grid columns for the <em>xs</em> breakpoint
+          </li>
+          <li>
+            <strong>6</strong> grid columns for the <em>sm</em> breakpoint
+          </li>
+          <li>
+            <strong>4</strong> grid columns for the <em>md</em> breakpoint
+          </li>
+          <li>
+            <strong>3</strong> grid columns for the <em>lg</em> and <em>xl</em> breakpoints
+          </li>
+        </ul>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">#1</div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">#2</div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">#3</div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">#4</div>
+        </div>
+      </section>
+
+
+      <section class="container">
+        <h1>Alignment</h1>
+
+        <h2>Row #1</h2>
+        <p><em>All</em> columns should be:</p>
+        <ul>
+          <li>Of equal width</li>
+          <li>Vertically centered</li>
+        </ul>
+
+        <div class="row">
+          <div class="col">#1</div>
+          <div class="col">#2</div>
+          <div class="col">#3</div>
+        </div>
+
+
+        <h2>Row #2</h2>
+        <ul>
+          <li>All columns should be of equal width</li>
+          <li>The first column should be vertically aligned to the bottom</li>
+          <li>The last column should be vertically centered</li>
+        </ul>
+
+        <div class="row">
+          <div class="col align-self-end">I like it low.</div>
+          <div class="col align-self-start">I like it high.</div>
+          <div class="col align-self-center">I like it just right.</div>
+        </div>
+
+
+        <h2>Row #3</h2>
+        <ul>
+          <li>
+            All columns should have equal spacing between themselves
+            but span from both ends of the container
+          </li>
+          <li>
+            All columns should have the xs breakpoint sized to be 3 grid columns
+          </li>
+        </ul>
+
+        <div class="row justify-content-between">
+          <div class="col-3">We like</div>
+          <div class="col-3">Our</div>
+          <div class="col-3">Space</div>
+        </div>
+
+
+        <h2>Row #4</h2>
+        <ul>
+          <li>
+            All columns should have equal spacing between themselves and have
+            equal spacing around each element, not between each element
+          </li>
+          <li>
+            The first and last column should have 4 grid columns in width
+            for the md breakpoint (same as row #4).
+          </li>
+        </ul>
+
+        <div class="row justify-content-around">
+          <div class="col-xs-12 col-md-3">We like</div>
+          <div class="col-xs-12 col-md-3">Our space</div>
+          <div class="col-xs-12 col-md-3">Even from that pesky row element</div>
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+</html>
